@@ -61,9 +61,12 @@ Import the files into your project.<br>
 Import the database.sql into MySQL database.<br>
 Run the project with Wampserver or Xampp.
 
-Login information (can be retrieved in database):<br>
+User Login information (can be retrieved in database):<br>
 1. Username: john <br> Password: john
 2. Username: jennie <br> Password: jennie
+
+Admin Login Information(can be retrieved in database):<br>
+Username: admin <br> Password: admin
 
 ## Test
 Manual testing has been performed.
