@@ -82,7 +82,7 @@ Manual testing has been performed.
 8. Blog Content <br> <img src="previews/BlogContent.png"><br><br>
 9. FAQ <br> <img src="previews/FAQ.png"><br><br>
 10. About Us & Contact Us <br> <img src="previews/AboutAndContact.png"><br><br>
-11. Admin Login Us <br> <img src="previews/Admin Login.png"><br><br>
+11. Admin Login <br> <img src="previews/AdminLogin.png"><br><br>
 12. Admin Dashboard <br> <img src="previews/AdminDashboard.png"><br><br>
 13. Product Management <br> <img src="previews/ProductManagement.png"><br><br>
 14. FAQ Management <br> <img src="previews/FAQManagement.png"><br><br>
