@@ -1,0 +1,54 @@
+<html>
+
+<head>
+  <title>
+    Sign Up Page
+  </title>
+  <link rel="stylesheet" href="style.css">
+  <script src="javascript.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <div class="user signup">
+    <img src="photo/signup_photo.png" width="450px" height="756px">
+    <div class="user_signup">
+      <h1>Sign Up</h1>
+      <span id="name_message" style="color: red;"></span><br>
+      <span id="password_message" style="color: red;"></span>
+      <form class="user_form" action="processSignUp.php" method="post">
+        <br><label><b>Username</b> </label>
+        <br><input type="text" placeholder="Enter Username" name="username" required>
+        <br><label><b>Name</b> </label>
+        <br><input type="text" placeholder="Enter Name" name="name" id="name" required>
+        <br><label><b>Email</b></label>
+        <br><input type="email" placeholder="Enter Email" name="email" required>
+        <br>
+        <div class="gender">
+          <label><b>Gender</b></label>
+          <br>
+          <div class="gender_radio">
+            <input type="radio" name="gender" value="male" required>
+            <label for="male"></label>Male</label>
+            <input type="radio" name="gender" value="female" style="position: relative; left: 30px;">
+            <label for="female" style="position: relative; left: 30px;">Female</label>
+          </div>
+        </div>
+        <br><label><b>Password</b> </label>
+        <br><input type="password" placeholder="Enter Password" name="password" id="password" required>
+        <br><label><b>Confirm Password</b></label>
+        <br><input type="password" placeholder="Enter Password" name="repeat_password" id="confirm_password" required>
+        <br> <input type="checkbox" required> By creating an account, you agree to our <a href="#">Terms &
+          Privacy</a>.
+        <br><input type="submit" name="signup" value="Sign Up" onClick="return validateSignUp()"><br>
+    </div>
+    </form>
+    <script>
+
+    </script>
+  </div>
+  </div>
+</body>
+
+</html>
