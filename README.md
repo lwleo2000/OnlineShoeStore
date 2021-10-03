@@ -58,6 +58,7 @@ The functions of the website are as follows:
 
 ## Usage
 Import the files into your project.<br>
+Import the database.sql into MySQL database.<br>
 Run the project with Wampserver or Xampp.
 
 Login information (can be retrieved in database):<br>
